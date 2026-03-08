@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-inter: var(--font-inter);
+  --font-outfit: var(--font-outfit);
+}
+
+:root {
+  --background: #050505;
+  --foreground: #f3f4f6;
+  --accent: #3b82f6; /* A subtle glowing blue accent */
+  --accent-glow: rgba(59, 130, 246, 0.5);
+  --card-bg: #111111;
+  --card-border: #222222;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), sans-serif;
+}

@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark minimal background -->
+  <rect width="256" height="256" rx="64" fill="#0A0A0B"/>
+  
+  <!-- Subtle gradient border/glow -->
+  <rect x="8" y="8" width="240" height="240" rx="56" stroke="url(#paint0_linear)" stroke-width="4"/>
+  
+  <!-- Stylized "F" -->
+  <path d="M78 85C78 81.134 81.134 78 85 78H138C141.866 78 145 81.134 145 85C145 88.866 141.866 92 138 92H98V118H128C131.866 118 135 121.134 135 125C135 128.866 131.866 132 128 132H98V171C98 174.866 94.866 178 91 178H85C81.134 178 78 174.866 78 171V85Z" fill="url(#paint1_linear)"/>
+  
+  <!-- Stylized "Z" overlapping -->
+  <path d="M125 78H175C178.866 78 182 81.134 182 85C182 87.2023 180.983 89.2892 179.252 90.6482L133.432 126.626L130 144L127.324 164H175C178.866 164 182 167.134 182 171C182 174.866 178.866 178 175 178H125C121.134 178 118 174.866 118 171C118 168.798 119.017 166.711 120.748 165.352L166.568 129.374L170 112L172.676 92H125C121.134 92 118 88.866 118 85C118 81.134 121.134 78 125 78Z" fill="#A855F7" opacity="0.9"/>
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="90" y1="78" x2="130" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D1D5DB"/>
+    </linearGradient>
+  </defs>
+</svg>
