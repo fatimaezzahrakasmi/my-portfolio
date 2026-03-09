@@ -48,11 +48,11 @@ export default function ContactPage() {
                     <div className="flex-1 flex flex-col justify-center space-y-12">
                         <div>
                             <p className="text-sm font-outfit text-white/40 uppercase tracking-widest mb-4">Direct Email</p>
-                            <a href="mailto:[EMAIL_ADDRESS]" className="inline-flex items-center gap-3 text-2xl font-medium font-inter group">
-                                <div className="p-3 bg-white/5 rounded-xl text-white group-hover:bg-white/10 transition-colors">
-                                    <Mail className="w-6 h-6" />
+                            <a href="mailto:kasmi.fatimaelzzahrae@gmail.com" className="flex items-center gap-2 sm:gap-3 text-sm sm:text-lg md:text-2xl font-medium font-inter group">
+                                <div className="p-2 md:p-3 bg-white/5 rounded-xl text-white group-hover:bg-white/10 transition-colors shrink-0">
+                                    <Mail className="w-5 h-5 md:w-6 md:h-6" />
                                 </div>
-                                kasmi.fatimaelzzahrae@gmail.com
+                                <span className="break-all">kasmi.fatimaelzzahrae@gmail.com</span>
                             </a>
                         </div>
 
