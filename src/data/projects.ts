@@ -62,6 +62,15 @@ export const projectsData: Project[] = [
         githubUrl: "https://github.com/fatimaezzahrakasmi/n8n-workflows/tree/main/Baby-Podcast",
     },
     {
+        id: "ai-assistant-chatbot",
+        title: "AI Conversational Assistant",
+        description: "A real-time conversational AI application powered by the Groq API (LLaMA 3). Features context-aware conversation history and SQLite message persistence with a clean web interface.",
+        thumbnail: "https://images.unsplash.com/photo-1531287112431-15a6b014f35e?q=80&w=2070&auto=format&fit=crop",
+        techStack: ["Python", "Flask", "Groq API", "SQLite", "HTML/CSS"],
+        category: "ai",
+        githubUrl: "https://github.com/fatimaezzahrakasmi/AI-Assistant",
+    },
+    {
         id: "lumina-ai-agentic-rag",
         title: "Lumina AI - Agentic RAG",
         description: "A full-stack Agentic RAG application with a premium Glassmorphic Dark Mode UI. Powered by OpenAI GPT-4o, LangChain, and Pinecone for intelligent knowledge base retrieval.",
