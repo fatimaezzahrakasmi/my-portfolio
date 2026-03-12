@@ -62,6 +62,15 @@ export const projectsData: Project[] = [
         githubUrl: "https://github.com/fatimaezzahrakasmi/n8n-workflows/tree/main/Baby-Podcast",
     },
     {
+        id: "house-price-prediction",
+        title: "House Price Prediction Model",
+        description: "An end-to-end Machine Learning project to predict real estate prices. Features extensive data exploration, model tuning (MLP, SVM, Linear Regression), and a Flask/Flet web frontend.",
+        thumbnail: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop",
+        techStack: ["Python", "scikit-learn", "Flask", "Flet", "Pandas"],
+        category: "ai",
+        githubUrl: "https://github.com/fatimaezzahrakasmi/House-Price-Prediction",
+    },
+    {
         id: "ai-assistant-chatbot",
         title: "AI Conversational Assistant",
         description: "A real-time conversational AI application powered by the Groq API (LLaMA 3). Features context-aware conversation history and SQLite message persistence with a clean web interface.",
