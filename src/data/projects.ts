@@ -4,7 +4,7 @@ export type Project = {
     description: string;
     thumbnail: string;
     techStack: string[];
-    category: "web" | "ai" | "automation";
+    category: "web" | "ai" | "data-bi" | "automation";
     demoUrl?: string;
     githubUrl?: string;
     videoUrl?: string;
@@ -107,6 +107,15 @@ export const projectsData: Project[] = [
         githubUrl: "https://github.com/fatimaezzahrakasmi/Real-Time-Digit-Recognition",
         demoUrl: "#",
     },
+    {
+        id: "crypto-financial-analytics",
+        title: "Crypto Financial Analytics Pipeline",
+        description: "An end-to-end Business Intelligence solution for cryptocurrency market analysis. Features automated ETL pipelines using SSIS, a multi-dimensional Data Warehouse in SQL Server, and an advanced Power BI dashboard utilizing complex DAX measures.",
+        thumbnail: "https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=2002&auto=format&fit=crop",
+        techStack: ["Power BI", "SQL Server", "SSIS", "DAX", "Data Warehousing"],
+        category: "data-bi",
+        githubUrl: "https://github.com/fatimaezzahrakasmi/Crypto-Financial-Analytics",
+    },
 ];
 
 export const projectCategories = [
@@ -123,6 +132,13 @@ export const projectCategories = [
         description: "Machine learning pipelines, data analysis, and intelligent system integrations.",
         color: "from-emerald-500/20 to-teal-500/20",
         border: "group-hover:border-emerald-500/50",
+    },
+    {
+        id: "data-bi",
+        title: "Data Analytics & BI",
+        description: "Business intelligence dashboards, ETL pipelines, and data reporting solutions.",
+        color: "from-yellow-500/20 to-amber-500/20",
+        border: "group-hover:border-yellow-500/50",
     },
     {
         id: "automation",
