@@ -22,6 +22,15 @@ export const projectsData: Project[] = [
         demoUrl: "https://vimeo.com/1170119369?share=copy&fl=sv&fe=ci",
     },
     {
+        id: "driving-school-dashboard",
+        title: "Driving School Management Dashboard",
+        description: "A modern, responsive frontend dashboard designed for managing a driving school's daily operations. Includes user interfaces to track students, manage instructors, monitor vehicle maintenance, and view general school statistics.",
+        thumbnail: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop",
+        techStack: ["HTML5", "CSS3", "Boxicons", "UI/UX Design"],
+        category: "web",
+        githubUrl: "https://github.com/fatimaezzahrakasmi/Dashbord-location-cars",
+    },
+    {
         id: "site-support",
         title: "Site Support & IT Services",
         description: "A responsive, multi-page business website designed for IT support, consulting, and customer service. Features clean layouts, pricing tables, and contact forms.",
