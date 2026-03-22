@@ -116,6 +116,15 @@ export const projectsData: Project[] = [
         category: "data-bi",
         githubUrl: "https://github.com/fatimaezzahrakasmi/Crypto-Financial-Analytics",
     },
+    {
+        id: "stock-management-vba",
+        title: "Stock Management & Automated Invoicing",
+        description: "A professional business analytics solution built with Excel and VBA to manage the full lifecycle of retail operations, including dynamic inventory tracking, an integrated CRM, and automated PDF invoice generation pipelines.",
+        thumbnail: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2026&auto=format&fit=crop",
+        techStack: ["Excel VBA", "Data Synchronisation", "CRM Integration", "Automation"],
+        category: "data-bi",
+        githubUrl: "https://github.com/fatimaezzahrakasmi/Stock-Inventory-Automation",
+    },
 ];
 
 export const projectCategories = [
